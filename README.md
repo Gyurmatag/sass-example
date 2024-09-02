@@ -9,6 +9,8 @@ This project is designed to teach the basics of Sass, including variables, nesti
 
 ```bash
 npm install -g sass
+``` 
 
 ## Compile
+```bash
 sass --watch scss/style.scss:css/style.css

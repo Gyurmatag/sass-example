@@ -1,0 +1,14 @@
+// Mixin for large text
+@mixin large-text($size: 20px, $color: $text-color) {
+  font-size: $size;
+  color: $color;
+}
+
+// Mixin for a box with padding and border-radius
+@mixin box-style($background: $primary-color) {
+  background-color: $background;
+  padding: $padding;
+  border-radius: $border-radius;
+  color: $text-color;
+  text-align: center;
+}
